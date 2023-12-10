@@ -1,32 +1,21 @@
-// pages/_document.js
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { ThemeContext } from "@/context";
+import { Suspense } from "react";
 import { AppHeader, AppFooter, AppMetadata } from "@/components";
-import "@/styles/globals.css";
+import Loading from "@/app/loading";
+import "@/styles/globals.css"
+import { ThemeContext } from "@/context";
 
-class MyDocument extends Document {
-  render() {
-    return (
-      <Html lang="en">
-        <Head>
+export const metadata = { ...AppMetadata };
 
-          <script
-            src="https://beamanalytics.b-cdn.net/beam.min.js"
-            data-token="cea78beb-0056-47f4-8382-00f1ed721ce1"
-            async
-          />
-        </Head>
-        <body>
-          <ThemeContext>
-            <AppHeader />
-            <Main />
-            <AppFooter />
-          </ThemeContext>
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+export default function RootLayout({ children }) {
+	return (
+		<html lang="en">
+			<body>
+				<ThemeContext>
+					<AppHeader />
+					{children}
+					<AppFooter />
+				</ThemeContext>
+			</body>
+		</html>
+	);
 }
-
-export default MyDocument;
