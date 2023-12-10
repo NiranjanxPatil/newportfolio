@@ -1,0 +1,11 @@
+@tailwind base;
+@layer base {
+	body {
+		@apply bg-brand-light text-brand-dark dark:bg-brand-dark dark:text-brand-light;
+	}
+}
+@layer base {
+    .text-edge-outline {
+      -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+    }
+  } 
