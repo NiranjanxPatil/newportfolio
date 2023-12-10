@@ -37,7 +37,15 @@ export function WelcomeSection() {
 	}, [count]);
 
 	return (
+		
 		<LazyMotion features={domAnimation}>
+			<Head>
+        <script
+          src="https://beamanalytics.b-cdn.net/beam.min.js"
+          data-token="cea78beb-0056-47f4-8382-00f1ed721ce1"
+          async
+        />
+      </Head>
 			<section id="intro" className="section" ref={introRef}>
 				<div className="grid grid-cols-1 md:grid-cols-[1fr_0.5fr] lg:grid-cols-[1fr_0.7fr] gap-4 items-center">
 					<div className="py-5 md:py-10">
