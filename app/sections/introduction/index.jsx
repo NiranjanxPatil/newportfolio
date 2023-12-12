@@ -112,7 +112,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href=""
+								href="./projects"
 								tabIndex="0"
 								className="btn"
 								aria-label="Latest projects"
