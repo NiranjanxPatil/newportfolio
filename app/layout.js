@@ -17,9 +17,11 @@ export default function RootLayout({ children }) {
         />
 			<body>
 				<ThemeContext>
+		  <div classname = "bg-green">
 					<AppHeader />
 					{children}
 					<AppFooter />
+		  </div>
 				</ThemeContext>
 			</body>
 		</html>
