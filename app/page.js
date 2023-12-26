@@ -8,7 +8,7 @@ export default function Page() {
           async
         />
   return (
-		  <div classname = "flex w-screen h-screen">
+
     <div className="container-md">
       <Head>
 	  <script
@@ -19,7 +19,7 @@ export default function Page() {
       </Head>      
       <WelcomeSection />	
       <AboutSection />
-		  </div>
+	
     </div>
   );
 }

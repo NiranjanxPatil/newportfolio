@@ -3,6 +3,7 @@ import { AppHeader, AppFooter, AppMetadata } from "@/components";
 import Loading from "@/app/loading";
 import "@/styles/globals.css"
 import { ThemeContext } from "@/context";
+import Particles from "@/components/particles"
 
 export const metadata = { ...AppMetadata };
 
@@ -16,6 +17,11 @@ export default function RootLayout({ children }) {
           async
         />
 			<body>
+				<Particles
+			className="absolute inset-0 -z-10 animate-fade-in isDarkTheme ? 'bg-black' : 'bg-white'"
+			quantity={200} // Increase the quantity to 300 or any other value you prefer
+			speed={1} // Increase the speed to 0.5 or any other value you prefer
+		/>
 				<ThemeContext>
 		 
 					<AppHeader />

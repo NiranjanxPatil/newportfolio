@@ -11,13 +11,15 @@ module.exports = {
 			colors: {
 				brand: {
 					light: "#FBF8F3",
-					dark: "#232332",
+					lightText: "#1F1F1F",
+					dark: "#000000",
+					darkText: "#e6e6e6",
 					purple: "#7928CA",
 					pink: "#FF0080"
 				},
 				blue: {
-					lighter: "#71c5ee",
-					light: "#3182ce",
+					lighter: "#037ee2",
+					light: "#0370c9",
 					normal: "#025091"
 				},
 				card: {
@@ -34,12 +36,12 @@ module.exports = {
 				"out-back": "cubic-bezier(0.18, 0.89, 0.32, 1.28)"
 			},
 			transitionDuration: {
-				DEFAULT: "300ms"
+				DEFAULT: "100ms"
 			},
 			backgroundImage: {
 				inherited: "inherit"
 			}
-		}
+		}	
 	},
 	plugins: [
 		function ({ addUtilities }) {
