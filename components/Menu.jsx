@@ -47,7 +47,9 @@ export function Menu({ onClick = () => {} }) {
 				className="icon-link-btn"
 			>
 				<span>
-					<BsArrowReturnLeft />
+					<BsArrowReturnLeft 
+					className="hover:-translate-y-1 transition-transform cursor-pointer"
+					/>
 				</span>
 				{SITE_STRINGS.backToMainText}
 			</Link>

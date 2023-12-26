@@ -27,7 +27,11 @@ export const ThemeSwitcher = () => {
 				exit={exit}
 				transition={transition}
 			>
-				{currentTheme === "dark" ? <BsSun /> : <BsMoon />}
+				{currentTheme === "dark" ? <BsSun 
+				className="hover:-translate-y-1 transition-transform cursor-pointer"
+				/> : <BsMoon
+				className="hover:-translate-y-1 transition-transform cursor-pointer"
+                       />}
 			</m.button>
 		</LazyMotion>
 	);
