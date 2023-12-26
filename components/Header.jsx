@@ -14,9 +14,7 @@ export function AppHeader() {
 					{isMobile ? <MobileMenu /> : <Menu />}
 					<div className="flex items-center gap-5">
 						{!isMobile && <ConnectMedia />}
-						<ThemeSwitcher 
-						className="hover:-translate-y-1 transition-transform cursor-pointer"
-						/>
+						<ThemeSwitcher />
 					</div>
 				</div>
 			</div>
