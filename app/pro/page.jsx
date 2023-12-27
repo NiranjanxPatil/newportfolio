@@ -46,9 +46,9 @@
       return (
         <div className='flex items-center justify-center min-h-screen w-screen flex-col'>
           {projects.map((project, index) => (
-            <div key={index} className="mb-4 w-full max-w-7xl">
+            <div key={index} className="mb-4 mt-7 w-full max-w-7xl">
               <div className="no-underline">
-                <div className="flex flex-row bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <div className="flex flex-row bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700">
                   <Link href={project.link}>
                     <img
                       className="object-cover w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-s-lg"
@@ -58,10 +58,10 @@
                     />
                   </Link>
                   <div className="flex flex-col p-4 leading-normal">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray dark:text-white">
                       {project.name}
                     </h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-300">
                       {project.description}
                     </p>
                     <div className="flex flex-row space-x-4">
