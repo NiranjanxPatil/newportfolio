@@ -6,9 +6,9 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 const TimeLineData = [
 	{ year: 2019, text: "Started my journey with Java." },
 	{ year: 2020, text: "Ventured into building Mobile & Desktop app using Java." },
-	{ year: 2021, text: "Shifted towards React and CSS" },
-	{ year: 2022, text: "Stared Nextjs and tailwind" },
-	{ year: 2023, text: "Stared my journey IN Dvops and AI" }
+	{ year: 2021, text: "Transitioned towards React and CSS.." },
+	{ year: 2022, text: "Embarked on learning Next.js and Tailwind" },
+	{ year: 2023, text: "Initiated my journey into DevOps and AI." }
 	
 ];
 
