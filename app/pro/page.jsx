@@ -6,7 +6,7 @@
       {
         name: "Prompttop",
         description:
-          "AI-powered prompts to enhance the outcomes of AI with Catalystic Prompts. and experiment with prompts to enhance their interactions with AI, catalyzing the AI's output. This interactive and user-friendly tool empowers individuals to influence AI-generated content.",
+          "  This interactive and user-friendly tool empowers individuals to influence AI-generated content.",
         image: "/prompttop.png",
         github: "https://github.com/NiranjanxPatil/prompttop",
         link: "https://prompttop.niranjann.tech",
@@ -20,7 +20,7 @@
       },
       {
         name: "Personal Website",
-        description: "Craft a comprehensive personal portfolio website using Next.js, designed to highlight your skills, projects, blogs, and contact information. This website serves as a dynamic platform to not only showcase your professional prowess but also share your unique insights and ideas. ",
+        description: "  ",
         image: "/port.png",
         github: "https://github.com/NiranjanxPatil/version2_myportfolio",
         link: "https://niranjann.tech",
