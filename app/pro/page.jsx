@@ -5,29 +5,28 @@
   const projects = [
       {
         name: "Prompttop",
-        description:
-          "  This interactive and user-friendly tool empowers individuals to influence AI-generated content.",
+        description:"  AI-poweres prompts to enhance the outcomes of AI with Catalystic Prompts, and experiment with prompts to enhance their interactions. ",
         image: "/prompttop.png",
         github: "https://github.com/NiranjanxPatil/prompttop",
         link: "https://prompttop.niranjann.tech",
       },
       {
         name: "TextSight",
-        description: "Craft a comprehensive personal portfolio website using Next.js, designed to highlight your skills, projects, blogs, and contact information. This website serves as a dynamic platform to not only showcase your professional prowess but also share your unique insights and ideas. ",
+        description: "Designed and developed an AI-driven website converting images to text, enhancing comprehension and generating captions for improved accessibility.  ",
         image: "/textsight.png",
         github: "https://github.com/NiranjanxPatil/textsight",
         link: "https://textsight.niranjann.tech",
       },
       {
         name: "Personal Website",
-        description: "  ",
+        description: "This website serves as a dynamic platform to not only showcase your professional prowess but also share your unique insights and ideas.   ",
         image: "/port.png",
         github: "https://github.com/NiranjanxPatil/version2_myportfolio",
         link: "https://niranjann.tech",
       },
       {
         name: "Skeleton",
-        description: "   Built on a custom API with MongoDB, this skeleton app includes all the essential features you need to kickstart your project Appwirte, DB, Mailer.",
+        description: "Built on a custom API with MongoDB, this skeleton app includes all the essential features you need to kickstart your project Appwirte, DB, Mailer.",
         image: "/skeleton.png",
         github: "https://github.com/NiranjanxPatil/skeleton_app",
         link: "https://skeleton.niranjann.tech",
