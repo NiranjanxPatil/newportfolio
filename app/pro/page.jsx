@@ -49,7 +49,7 @@
               <div className="no-underline">
                 <div className="flex flex-row bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700">
                   <Link href={project.link}>
-                    <img
+                    <Image
                       className="object-cover w-full rounded-t-lg h-96 md:h-auto md:rounded-none md:rounded-s-lg"
                       src={project.image}
                       alt={project.name}

@@ -27,23 +27,23 @@ export function AboutSection() {
                         }}
                     >
                         <p>
-                            Hello, I'm Niranjan Patil, skilled in Design, Development, and Deployments.
+                            Hello, I&apos;m Niranjan Patil, skilled in Design, Development, and Deployments.
                         </p>
                         <p className="my-3.5">
-                            I'm currently pursuing AIML engineering at Mumbai University and hold a Diploma in Computer Engineering from Pune University. 
+                            I&apos;m currently pursuing AIML engineering at Mumbai University and hold a Diploma in Computer Engineering from Pune University. 
                             Outside of work, I enjoy reading blogs and writing blogs on my personal website niranjann.tech.
                         </p>
                         <p>My programming journey officially began in 2019 as a Java developer.</p>
                         <p className="my-3.5">
                             In my past roles, I excelled in group leadership and project management, and 
-                            I'm proud of my achievements in mobile app development during my Diploma years.
+                            I&apos;m proud of my achievements in mobile app development during my Diploma years.
                         </p>
                         <p>
                             I bring to the table expertise in cloud, DevOps, and AI/ML, along with a passion for designing in Figma and Canva.
                         </p>
                         <p className="my-3.5">
-                            Currently, I'm focused on honing my cloud and DevOps skills, and 
-                            I'm eager to collaborate on projects that leverage my knowledge in AIML and AI tools.
+                            Currently, I&apos;m focused on honing my cloud and DevOps skills, and 
+                            I&apos;m eager to collaborate on projects that leverage my knowledge in AIML and AI tools.
                         </p>
                     </div>
                 </div>
