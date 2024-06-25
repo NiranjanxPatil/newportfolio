@@ -16,10 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js"
+		"Build SaaS apps for Freelance",
+		"Convert design into modern UI",
+		"Build interactive UI using React/Nextjs",
+		"Deploy using Devops and AWS"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -53,7 +53,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Niranjan</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Niranjan</mark> a <mark>passionate</mark> Software Developer.
 							</p>
 						</h1>
 
