@@ -5,7 +5,7 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 const projects = [
   {
     name: "Prompttop",
-    description: "Enhance AI outcomes with catalystic prompts, optimizing AI performance through innovative prompts and experimentation. This project leverages advanced AI techniques to generate effective prompts for various AI applications.",
+    description: "Enhance AI outcomes with catalytic prompts, optimizing AI performance through innovative prompts and experimentation. This project leverages advanced AI techniques to generate effective prompts for various AI applications.",
     image: "/prompttop.png",
     github: "https://github.com/NiranjanxPatil/prompttop",
     link: "https://prompttop.niranjann.tech",
@@ -59,6 +59,33 @@ const projects = [
     github: "https://github.com/NiranjanxPatil",
     link: "https://niranjann.tech",
   },
+  {
+    name: "Virtual Canvas",
+    description: "Imagine a blank canvas equipped with advanced hand tracking and motion detection technology, designed to enable innovative drawing and creation. This cutting-edge system integrates a variety of libraries, modules, and hardware components, harnessing their capabilities to facilitate fluid, intuitive interaction and creative expression.",
+    image: "/hand.png",
+    github: "https://github.com/NiranjanxPatil/Virtual-Canvas",
+    link: "https://github.com/NiranjanxPatil/Virtual-Canvas",
+  },
+  {
+    name: "Virtual Canvas",
+    description: (
+      <div>
+        <p>
+          Picture a mouse equipped with motion detection technology that tracks hand movements in real time. This innovative setup includes a user-friendly dashboard for controlling various projects seamlessly. It harnesses advanced libraries, modules, and hardware components to ensure precise interaction and efficient management of creative endeavors.
+        </p>
+      </div>
+    ),
+    image: "/mouse.png",
+    github: "https://github.com/NiranjanxPatil/virtual-mouse",
+    link: "https://github.com/NiranjanxPatil/virtual-mouse",
+  },
+  {
+    name: "Data Visualization and Analysis using Py & R",
+    description: "Executed Python projects with meticulous data cleaning and diverse matplotlib visualizations. Conducted thorough data cleaning and Exploratory Data Analysis (EDA) to uncover patterns and trends. Applied advanced statistical modeling and machine learning techniques for deeper insights, emphasizing impactful data visualization for effective communication.",
+    github: "https://github.com/NiranjanxPatil/virtual-mouse",
+    link: "https://github.com/NiranjanxPatil/virtual-mouse",
+  },
+  
 ];
 
 export default function ProjectsPage() {

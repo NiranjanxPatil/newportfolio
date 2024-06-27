@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2019, text: "Started my journey with Java." },
+	{ year: 2019, text: "Started my journey with Java and Advance Java." },
 	{ year: 2020, text: "Ventured into building Mobile & Desktop app using Java." },
 	{ year: 2021, text: "Transitioned towards MERN NEXTjs CSS.." },
 	{ year: 2022, text: "Embarked on learning Next.js and Tailwind" },
