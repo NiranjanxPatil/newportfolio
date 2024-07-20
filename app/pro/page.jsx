@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: "Skeleton",
-    description: "Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API. Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development.",
+    description: "Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development. A Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API. ",
     image: "/skeleton.png",
     github: "https://github.com/NiranjanxPatil/skeleton_app",
     link: "https://skeleton.niranjann.tech",
