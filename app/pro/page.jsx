@@ -32,6 +32,13 @@ const projects = [
     link: "https://skeleton.niranjann.tech",
   },
   {
+    name: "HandSum AI",
+    description: "Created a real-time hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using OpenCV and cvzone for hand tracking, the app captures webcam video, processes gestures, and sends the data to a Google Generative AI model for problem-solving, with results displayed live in the interface. ",
+    image: "/handsolve.png",
+    github: "https://github.com/NiranjanxPatil/maths_Ai",
+    link: "https://github.com/NiranjanxPatil/maths_Ai",
+  },
+  {
     name: "Draw_Detech",
     description: "Automate analysis of hand-drawn or digital content with AI-based canvas object detection, enhancing productivity and creativity. Draw_Detech employs computer vision algorithms to detect and analyze objects in digital artwork, facilitating automated analysis and enhancement.",
     image: "/draw.png",
