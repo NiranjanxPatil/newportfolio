@@ -60,13 +60,6 @@ const projects = [
     link: "https://niranjann.tech",
   },
   {
-    name: "CricSights",
-    description: "A Next.js and Power BI-based web app providing analytical forecasts and real-time cricket data using open-source APIs. It features a sleek, user-friendly design, offering detailed analysis of player performance, win ratios, and strategic insights.",
-    image: "/cric.png",
-    github: "https://github.com/NiranjanxPatil",
-    link: "https://niranjann.tech",
-  },
-  {
     name: "Virtual Canvas",
     description: "Imagine a blank canvas equipped with advanced hand tracking and motion detection technology, designed to enable innovative drawing and creation. This cutting-edge system integrates a variety of libraries, modules, and hardware components, harnessing their capabilities to facilitate fluid, intuitive interaction and creative expression.",
     image: "/hand.png",
@@ -74,7 +67,13 @@ const projects = [
     link: "https://github.com/NiranjanxPatil/Virtual-Canvas",
   },
   {
-    name: "Virtual Canvas",
+    name: "Data Visualization and Analysis using Py & R",
+    description: "Executed Python projects with meticulous data cleaning and diverse matplotlib visualizations. Conducted thorough data cleaning and Exploratory Data Analysis (EDA) to uncover patterns and trends. Applied advanced statistical modeling and machine learning techniques for deeper insights, emphasizing impactful data visualization for effective communication.",
+    github: "https://github.com/NiranjanxPatil/virtual-mouse",
+    link: "https://github.com/NiranjanxPatil/virtual-mouse",
+  },
+  {
+    name: "Virtual mouse",
     description: (
       <div>
         <p>
@@ -86,12 +85,7 @@ const projects = [
     github: "https://github.com/NiranjanxPatil/virtual-mouse",
     link: "https://github.com/NiranjanxPatil/virtual-mouse",
   },
-  {
-    name: "Data Visualization and Analysis using Py & R",
-    description: "Executed Python projects with meticulous data cleaning and diverse matplotlib visualizations. Conducted thorough data cleaning and Exploratory Data Analysis (EDA) to uncover patterns and trends. Applied advanced statistical modeling and machine learning techniques for deeper insights, emphasizing impactful data visualization for effective communication.",
-    github: "https://github.com/NiranjanxPatil/virtual-mouse",
-    link: "https://github.com/NiranjanxPatil/virtual-mouse",
-  },
+ 
   
 ];
 
