@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'; // Import Image from next/image
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
+import Head from 'next/head'; // Import Head for including the script
 
 const projects = [
   {
@@ -85,55 +86,66 @@ const projects = [
     github: "https://github.com/NiranjanxPatil/virtual-mouse",
     link: "https://github.com/NiranjanxPatil/virtual-mouse",
   },
- 
-  
 ];
 
 export default function ProjectsPage() {
   return (
-    <div className="container mx-auto px-4 py-8 md:px-10 lg:px-20">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center items-center">
-        {projects.map((project, index) => (
-          <div key={index} className="flex flex-col bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transform transition-transform hover:scale-105 h-full">
-            <Link href={project.link}>
-              <div className="relative h-52 md:h-60">
-                <Image
-                  src={project.image}
-                  alt={project.name}
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-t-lg"
-                />
-              </div>
-            </Link>
-            <div className="p-4 flex flex-col flex-grow">
-              <h5 className="mb-2 text-lg font-bold text-gray-800">
-                {project.name}
-              </h5>
-              <p className="mb-4 text-gray-800 text-sm">
-                {project.description}
-              </p>
-              <div className="flex items-center mt-auto space-x-4">
-                <Link href={project.github} target="_blank">
-                  <BsGithub
-                    size={24}
-                    className="text-gray-600 hover:text-gray-900 cursor-pointer"
+    <>
+      <Head>
+        <script
+          src="https://beamanalytics.b-cdn.net/beam.min.js"
+          data-token="cea78beb-0056-47f4-8382-00f1ed721ce1"
+          async
+        ></script>
+      </Head>
+
+      <div className="container mx-auto px-4 py-8 md:px-10 lg:px-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center items-center">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="flex flex-col bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transform transition-transform hover:scale-105 h-full"
+            >
+              <Link href={project.link}>
+                <div className="relative h-52 md:h-60">
+                  <Image
+                    src={project.image}
+                    alt={project.name}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-t-lg"
                   />
-                </Link>
-                <div className="flex items-center">
-                  <Link href={project.link} target="_blank">
-                    <BsArrowUpRightSquare
+                </div>
+              </Link>
+              <div className="p-4 flex flex-col flex-grow">
+                <h5 className="mb-2 text-lg font-bold text-gray-800">
+                  {project.name}
+                </h5>
+                <p className="mb-4 text-gray-800 text-sm">
+                  {project.description}
+                </p>
+                <div className="flex items-center mt-auto space-x-4">
+                  <Link href={project.github} target="_blank">
+                    <BsGithub
                       size={24}
                       className="text-gray-600 hover:text-gray-900 cursor-pointer"
                     />
                   </Link>
-                  <span className="ml-1 text-sm text-gray-600">Live</span>
+                  <div className="flex items-center">
+                    <Link href={project.link} target="_blank">
+                      <BsArrowUpRightSquare
+                        size={24}
+                        className="text-gray-600 hover:text-gray-900 cursor-pointer"
+                      />
+                    </Link>
+                    <span className="ml-1 text-sm text-gray-600">Live</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
