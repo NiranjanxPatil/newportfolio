@@ -19,7 +19,7 @@ export function WelcomeSection() {
 		"Build SaaS apps for Freelance",
 		"Convert design into modern UI",
 		"Build interactive UI using React/Nextjs",
-		"Deploy using Devops and AWS"
+		"Deploy using Devops and Cloud"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -112,7 +112,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="./pro"
+								href="./projects"
 								tabIndex="0"
 								className="btn"
 								aria-label="Latest projects"

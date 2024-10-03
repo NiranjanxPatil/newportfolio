@@ -1,5 +1,5 @@
 import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub, AiFillGitlab } from "react-icons/ai";
-import { DiCss3, DiVisualstudio } from "react-icons/di";
+import { DiCss3, DiVisualstudio, DiPostgresql, DiMysql, DiDocker } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaWordpressSimple, FaFigma, FaTrello } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
@@ -13,47 +13,51 @@ import HeadlessUiIcon from "@/public/assets/svg/headlessui.svg";
 import MuiIcon from "@/public/assets/svg/mui.svg";
 import ChakraIcon from "@/public/assets/svg/chakraui.svg";
 import StyledIcon from "@/public/assets/svg/styledcomponents.svg";
+import { FaAws } from "react-icons/fa"; // AWS icon
+import { SiKubernetes, SiTerraform, SiAnsible } from "react-icons/si"; // Kubernetes, Terraform, Ansible
 
 export const TECHNOLOGIES = [
 	{
-		category: "Mobile",
-		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
+		category: "Languages",
+		items: [
+			{ name: "Java", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "Python", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "REST API", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "SQL", icon: <DiVisualstudio size={32} /> } // Placeholder icon
+		]
 	},
 	{
-		category: "Front-end",
+		category: "Frameworks",
 		items: [
-			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
+			{ name: "Next.js", icon: <TbBrandNextjs size={32} /> },
+			{ name: "Node.js", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "React.js", icon: <FaReact size={32} /> },
 			{ name: "CSS", icon: <DiCss3 size={32} /> },
-			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
-			{ name: "React", icon: <FaReact size={32} /> },
-			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
-			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
-			{ name: "MUI", icon: <MuiIcon width={32} /> },
-			{ name: "AntD", icon: <AiOutlineAntDesign size={32} /> },
-			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
-			{ name: "Chakra", icon: <ChakraIcon width={32} /> },
-			{ name: "styled components", icon: <StyledIcon width={32} /> },
-			{ name: "HeadlessUI", icon: <HeadlessUiIcon width={32} /> }
+			{ name: "Tailwind", icon: <TbBrandTailwind size={32} /> }
 		]
 	},
 	{
-		category: "UI tools",
+		category: "Tools",
 		items: [
+			{ name: "Docker", icon: <DiDocker size={32} /> },
+			{ name: "Kubernetes", icon: <SiKubernetes size={32} /> },
+			{ name: "GIT", icon: <AiFillGithub size={32} /> },
+			{ name: "PostgreSQL", icon: <DiPostgresql size={32} /> },
+			{ name: "MySQL", icon: <DiMysql size={32} /> },
+			{ name: "MongoDB", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "Terraform", icon: <SiTerraform size={32} /> },
+			{ name: "Ansible", icon: <SiAnsible size={32} /> } 
+		]
+	},
+	{
+		category: "Platforms",
+		items: [
+			{ name: "AWS", icon: <FaAws size={32} /> },
+			{ name: "Git", icon: <AiFillGithub size={32} /> },
+			{ name: "Power BI", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
 			{ name: "Figma", icon: <FaFigma size={32} /> },
-			{ name: "Zeplin", icon: <ZeplinIcon width={36} /> },
-			{ name: "XD", icon: <AdobeXDIcon width={32} /> }
-		]
-	},
-	{
-		category: "Other tools",
-		items: [
-			{ name: "WordPress CMS", icon: <FaWordpressSimple size={32} /> },
-			{ name: "Jira", icon: <JiraIcon width={32} /> },
-			{ name: "Trello", icon: <FaTrello size={32} /> },
-			{ name: "Github", icon: <AiFillGithub size={32} /> },
-			{ name: "Gitlab", icon: <AiFillGitlab size={32} /> },
-			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },
-			{ name: "WebStorm", icon: <WebstormIcon width={32} /> }
+			{ name: "Linux", icon: <DiVisualstudio size={32} /> }, // Placeholder icon
+			{ name: "Windows", icon: <DiVisualstudio size={32} /> } // Placeholder icon
 		]
 	}
 ];

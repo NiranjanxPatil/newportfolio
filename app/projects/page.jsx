@@ -9,32 +9,32 @@ const projects = [
     description: "Enhance AI outcomes with catalytic prompts, optimizing AI performance through innovative prompts and experimentation. This project leverages advanced AI techniques to generate effective prompts for various AI applications.",
     image: "/prompttop.png",
     github: "https://github.com/NiranjanxPatil/prompttop",
-    link: "https://prompttop.niranjann.tech",
+    link: "https://prompttop.niranjan.tech",
   },
   {
     name: "TextSight",
     description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
     image: "/textsight.png",
     github: "https://github.com/NiranjanxPatil/textsight",
-    link: "https://textsight.niranjann.tech",
+    link: "https://textsight.niranjan.tech",
   },
   {
     name: "Personal Website",
     description: "Showcase professional prowess and insights with a dynamic platform for portfolio and idea sharing. This project includes a custom-built CMS for easy content management and integration with third-party APIs for enhanced functionality.",
     image: "/port.png",
     github: "https://github.com/NiranjanxPatil/version2_myportfolio",
-    link: "https://niranjann.tech",
+    link: "https://niranjan.tech",
   },
   {
     name: "Skeleton",
-    description: "Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development. A Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API. ",
+    description: "Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development. A Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API.",
     image: "/skeleton.png",
     github: "https://github.com/NiranjanxPatil/skeleton_app",
-    link: "https://skeleton.niranjann.tech",
+    link: "https://skeleton.niranjan.tech",
   },
   {
     name: "HandSum AI",
-    description: "Created a real-time hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using OpenCV and cvzone for hand tracking, the app captures webcam video, processes gestures, and sends the data to a Google Generative AI model for problem-solving, with results displayed live in the interface. ",
+    description: "Created a real-time hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using OpenCV and cvzone for hand tracking, the app captures webcam video, processes gestures, and sends the data to a Google Generative AI model for problem-solving, with results displayed live in the interface.",
     image: "/handsolve.png",
     github: "https://github.com/NiranjanxPatil/maths_Ai",
     link: "https://github.com/NiranjanxPatil/maths_Ai",
@@ -51,14 +51,14 @@ const projects = [
     description: "A blockchain-based web app using React and Pinata with MetaMask integration for trading AI-generated art as NFTs. It provides ownership and rights to individual creators, ensuring secure and transparent transactions.",
     image: "/artify.png",
     github: "https://github.com/NiranjanxPatil/Artify",
-    link: "https://artify.niranjann.tech",
+    link: "https://artify.niranjan.tech",
   },
   {
     name: "Store Analytic",
     description: "A Power BI-based dashboard for comprehensive analytics and research, facilitating data-driven decision-making. This project integrates various data sources to provide actionable insights through interactive visualizations.",
     image: "/store.png",
     github: "https://github.com/NiranjanxPatil",
-    link: "https://niranjann.tech",
+    link: "https://niranjan.tech",
   },
   {
     name: "Virtual Canvas",
@@ -94,7 +94,7 @@ export default function ProjectsPage() {
       <Head>
         <script
           src="https://beamanalytics.b-cdn.net/beam.min.js"
-          data-token="cea78beb-0056-47f4-8382-00f1ed721ce1"
+          data-token="4d20bd4c-d15a-4b5d-8a64-8f801a646e90"
           async
         ></script>
       </Head>
