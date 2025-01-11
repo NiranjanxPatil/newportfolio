@@ -33,7 +33,7 @@ const projects = [
     link: "https://skeleton.niranjan.tech",
   },
   {
-    name: "HandSum AI",
+    name: "Sketch to Solve",
     description: "Created a real-time hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using OpenCV and cvzone for hand tracking, the app captures webcam video, processes gestures, and sends the data to a Google Generative AI model for problem-solving, with results displayed live in the interface.",
     image: "/handsolve.png",
     github: "https://github.com/NiranjanxPatil/maths_Ai",
