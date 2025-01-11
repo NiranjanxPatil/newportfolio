@@ -11,6 +11,15 @@ const projects = [
     github: "https://github.com/NiranjanxPatil/prompttop",
     link: "https://prompttop.niranjan.tech",
   },
+
+  {
+    name: "Scalable CI/CD Pipeline",
+    description: "Built a scalable CI/CD pipeline using Kubernetes, Jenkins, Terraform, Ansible, and AWS. Automated deployments and infrastructure provisioning, reducing deployment time by 50% and ensuring high availability. Streamlined testing and delivery for faster feature rollouts and operational efficiency.",
+    image: "/flow.png",
+    github: "https://github.com/NiranjanxPatil/DevOps_Automation_CI_CD",
+    link: "https://github.com/NiranjanxPatil/DevOps_Automation_CI_CD",
+  },
+
   {
     name: "TextSight",
     description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
