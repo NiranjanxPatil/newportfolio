@@ -21,19 +21,20 @@ const projects = [
   },
 
   {
-    name: "TextSight",
-    description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
-    image: "/textsight.png",
-    github: "https://github.com/NiranjanxPatil/textsight",
-    link: "https://textsight.niranjan.tech",
-  },
-  {
     name: "Personal Website",
     description: "Showcase professional prowess and insights with a dynamic platform for portfolio and idea sharing. This project includes a custom-built CMS for easy content management and integration with third-party APIs for enhanced functionality.",
     image: "/port.png",
     github: "https://github.com/NiranjanxPatil/version2_myportfolio",
     link: "https://niranjan.tech",
   },
+  {
+    name: "TextSight",
+    description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
+    image: "/textsight.png",
+    github: "https://github.com/NiranjanxPatil/textsight",
+    link: "https://textsight.niranjan.tech",
+  },
+  
   {
     name: "Skeleton",
     description: "Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development. A Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API.",
