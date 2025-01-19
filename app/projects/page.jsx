@@ -9,7 +9,7 @@ const projects = [
     description: "Enhance AI outcomes with catalytic prompts, optimizing AI performance through innovative prompts and experimentation. This project leverages advanced AI techniques to generate effective prompts for various AI applications.",
     image: "/prompttop.png",
     github: "https://github.com/NiranjanxPatil/prompttop",
-    link: "https://prompttop.niranjan.tech",
+    link: "https://prompttop.vercel.app",
   },
 
   {
@@ -32,7 +32,7 @@ const projects = [
     description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
     image: "/textsight.png",
     github: "https://github.com/NiranjanxPatil/textsight",
-    link: "https://textsight.niranjan.tech",
+    link: "https://textsight.vercel.app",
   },
   
   {
@@ -40,7 +40,7 @@ const projects = [
     description: "Skeleton provides a ready-to-deploy template with modular components and scalable architecture for rapid application development. A Kickstart projects with essential features like Appwrite, DB integration, and Mailer functionalities using a custom API.",
     image: "/skeleton.png",
     github: "https://github.com/NiranjanxPatil/skeleton_app",
-    link: "https://skeleton.niranjan.tech",
+    link: "https://skeleton.vercel.app",
   },
   {
     name: "Sketch to Solve",
