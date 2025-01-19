@@ -61,14 +61,14 @@ const projects = [
     description: "A blockchain-based web app using React and Pinata with MetaMask integration for trading AI-generated art as NFTs. It provides ownership and rights to individual creators, ensuring secure and transparent transactions.",
     image: "/artify.png",
     github: "https://github.com/NiranjanxPatil/Artify",
-    link: "https://artify.niranjan.tech",
+    link: "https://artify.vercel.app",
   },
   {
     name: "Store Analytic",
     description: "A Power BI-based dashboard for comprehensive analytics and research, facilitating data-driven decision-making. This project integrates various data sources to provide actionable insights through interactive visualizations.",
     image: "/store.png",
     github: "https://github.com/NiranjanxPatil",
-    link: "https://niranjan.tech",
+    link: "https://niranjan.tech/",
   },
   {
     name: "Virtual Canvas",
