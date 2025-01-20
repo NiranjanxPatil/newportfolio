@@ -4,7 +4,7 @@ import Loading from "@/app/loading";
 import "@/styles/globals.css"
 import { ThemeContext } from "@/context";
 import Particles from "@/components/particles"
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata = { ...AppMetadata };
 
 export default function RootLayout({ children }) {
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
 		  data-token="cea78beb-0056-47f4-8382-00f1ed721ce1"
 		  async
         />
+		
 			<body>
 				<Particles
 			className="absolute inset-0 -z-10 animate-fade-in isDarkTheme ? 'bg-black' : 'bg-white'"
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
 		 
 					<AppHeader />
 					{children}
+					<Analytics />
 					<AppFooter />
 		  
 				</ThemeContext>
