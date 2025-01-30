@@ -23,7 +23,7 @@ const projects = [
   {
     name: "Educare",
     description: "Created a real-time Ai Agent with ai orchestration. Hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using Manim and langchan for animation genration, so visualization of problem make it look easy. With more next gen tech and ideas to solve problems.",
-    image: "/handsolve.png",
+    image: "/handsolvee.png",
     github: "https://github.com/NiranjanxPatil/Educare",
     link: "https://github.com/NiranjanxPatil/Educare",
   },
