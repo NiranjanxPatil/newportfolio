@@ -21,12 +21,13 @@ const projects = [
   },
 
   {
-    name: "Personal Website",
-    description: "Showcase professional prowess and insights with a dynamic platform for portfolio and idea sharing. This project includes a custom-built CMS for easy content management and integration with third-party APIs for enhanced functionality.",
-    image: "/port.png",
-    github: "https://github.com/NiranjanxPatil/version2_myportfolio",
-    link: "https://niranjan.tech",
+    name: "Educare",
+    description: "Created a real-time Ai Agent with ai orchestration. Hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using Manim and langchan for animation genration, so visualization of problem make it look easy. With more next gen tech and ideas to solve problems.",
+    image: "/handsolve.png",
+    github: "https://github.com/NiranjanxPatil/Educare",
+    link: "https://github.com/NiranjanxPatil/Educare",
   },
+
   {
     name: "TextSight",
     description: "Convert images to text, generate captions for accessibility, leveraging AI to enhance digital content comprehension. TextSight utilizes OCR technology and AI-driven algorithms to convert visual information into readable text and provide descriptive captions.",
@@ -34,6 +35,15 @@ const projects = [
     github: "https://github.com/NiranjanxPatil/textsight",
     link: "https://textsight.vercel.app",
   },
+
+  {
+    name: "Personal Website",
+    description: "Showcase professional prowess and insights with a dynamic platform for portfolio and idea sharing. This project includes a custom-built CMS for easy content management and integration with third-party APIs for enhanced functionality.",
+    image: "/port.png",
+    github: "https://github.com/NiranjanxPatil/version2_myportfolio",
+    link: "https://niranjan.tech",
+  },
+  
   
   {
     name: "Skeleton",
@@ -42,13 +52,7 @@ const projects = [
     github: "https://github.com/NiranjanxPatil/skeleton_app",
     link: "https://skeleton.vercel.app",
   },
-  {
-    name: "Sketch to Solve",
-    description: "Created a real-time hand gesture recognition system integrated with an AI model to solve math problems, showcased through an interactive Streamlit app. Using OpenCV and cvzone for hand tracking, the app captures webcam video, processes gestures, and sends the data to a Google Generative AI model for problem-solving, with results displayed live in the interface.",
-    image: "/handsolve.png",
-    github: "https://github.com/NiranjanxPatil/maths_Ai",
-    link: "https://github.com/NiranjanxPatil/maths_Ai",
-  },
+  
   {
     name: "Draw_Detech",
     description: "Automate analysis of hand-drawn or digital content with AI-based canvas object detection, enhancing productivity and creativity. Draw_Detech employs computer vision algorithms to detect and analyze objects in digital artwork, facilitating automated analysis and enhancement.",
